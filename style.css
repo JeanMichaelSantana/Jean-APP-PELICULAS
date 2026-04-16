@@ -1,0 +1,66 @@
+body {
+    background: #0f0f0f;
+    color: #fff;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card {
+    background: #1a1a1a;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 35px rgba(255, 215, 0, 0.3);
+}
+
+.card-img-top {
+    height: 380px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #ffd700;
+}
+
+.vote-badge {
+    background: #ffd700;
+    color: #000;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+}
+
+.synopsis {
+    font-size: 0.95rem;
+    color: #ddd;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, .card-text {
+    color: #fff;
+}
+
+.input-group-text, .form-control {
+    background: #1a1a1a;
+    border-color: #ffd700;
+    color: #fff;
+}
+
+.form-control:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 0 0.25rem rgba(255, 215, 0, 0.25);
+}
